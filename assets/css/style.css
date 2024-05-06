@@ -1,0 +1,94 @@
+body{
+    background-image: url(../img/background.jpg);
+}
+
+.header{
+    height: 30px;
+    width: 100%;
+}
+
+.logo{
+    height: 100%;
+    width: 100%;
+}
+
+.logo__image{
+    height: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+
+
+.main{
+   color: azure;
+}
+
+.main__container{
+    text-align: center;
+}
+
+.main__title{
+    
+}
+
+.main__title-emphasis{
+    display: block;
+    font-size: 50px;
+}
+
+.main__button{
+    margin-bottom: 20px;
+}
+
+.button--positive{
+    padding: 7px;
+    background-color: #41b592;
+    border: none;
+    color: azure;
+    width: 120px;
+}
+
+.form{
+    background-color: aliceblue;
+    width: 80%;
+    color: gray;
+    padding-bottom: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.form__container{
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding: 5px;
+    
+}
+
+.form__label{
+    display: inline-block;
+    width: 100%;
+}
+
+input, select{
+    border: 1px solid #cfcfcf;
+    color: #acacac;
+}
+
+.form__input-text, .form__input-date, .form__select{
+    width: 100%;
+}
+
+.button.button--default{
+    display: block;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;margin-bottom: 10px;
+    background-color: rgb(196, 79, 25);
+    color: azure;
+    border: none;
+    border-radius: 2px;
+    
+}
